@@ -1,0 +1,27 @@
+/* flex */
+div.richard{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+/* //////////// */
+html{
+    background-color: rgb(12, 0, 179);
+    color: white;
+    background: url("../imagesUsed/flag.jpeg") no-repeat;
+    background-size: cover;
+}
+img{
+    border: white 3px solid;
+    border-radius: 50%;
+    height: 300px;
+    box-shadow: black 2px 2px 5px
+}
+div.head{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow: black 0px 0px 5px;
+    background-color: rgba(0, 0, 0, 0.563);
+    width: 50%;
+}

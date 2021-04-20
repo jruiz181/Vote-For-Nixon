@@ -6,10 +6,14 @@ div.richard{
 }
 /* //////////// */
 html{
+  color: white;
+  background: url("../imagesUsed/flag.jpeg") no-repeat;
+  background-size: cover;
+  height: 100%;
+}
 
-    color: white;
-    background: url("../imagesUsed/flag.jpeg") no-repeat;
-    background-size: cover;
+body{
+  margin: 0;
 }
 img{
     border-radius: 50%;
@@ -87,7 +91,8 @@ h1#can{
     color: black;
     border: black solid 5px;
     border-radius: 15%;
-    padding:10px;
+    padding:20px;
+    margin-top: 10px;
     text-shadow: rgba(0, 0, 0, 0.486) 2px 2px 9px;
 
 }
@@ -121,7 +126,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
+  text-align: center;
 }
 
 /* Add Animation */
@@ -138,9 +144,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 /* The Close Button */
 .close {
   color: white;
-  float: right;
   font-size: 28px;
   font-weight: bold;
+  margin-left: 97%;
 }
 
 .close:hover,
@@ -148,21 +154,27 @@ body {font-family: Arial, Helvetica, sans-serif;}
   color: #000;
   text-decoration: none;
   cursor: pointer;
+  background-color: rgb(221, 56, 56);
 }
 
 .modal-header {
-  padding: 25px 16px;
+  padding: 10px;
   background-color: rgb(204, 0, 0);
   color: white;
-}
+  width: 100%;
 
+}
 .modal-body {
   padding: 20px;
   color:black; 
   font-size: 4em;
+  width: 100%;
+
 }
 
 .modal-footer {
   padding: 25px 16px;
   background-color: rgb(204, 0, 0);
   color: white; 
+  width: 100%;
+}

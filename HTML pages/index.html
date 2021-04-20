@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Presidential Election</title>
     <!-- css -->
     <link rel="stylesheet" href="../CSS pages/styles.css">
+    <link rel="stylesheet" href="../CSS pages/reset.css">
     <!-- js -->
 
 </head>
 
 <body>
-
     <div class="head">
         <h1>Hello, welcome to the 1972 Presidential Election. <br>Please select the canidate you are voting for.</h1>
     </div>
@@ -27,30 +27,28 @@
     <br>
     <div class="vote">
         <button id="rich" onclick="rich()" >Vote</button>
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <button id="george" onclick="george()" onclick="rich()"  style="margin-left: 5%;">Vote</button>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
 
-            <!-- Modal content -->
-            <div class="modal-content">
-                    <div class="modal-header">
-                      <span class="close">&times;</span>
-                        <p>&star;</p>
-                    </div>
-                    <div class="modal-body">
-                      <p>Thank you for voting Nixon</p>
-                      <p></p>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                  </div>    
-
-        </div>
-        <button style="margin-left: 90px;" id="george" onclick="rich()">Vote</button>
+        <!-- Modal content -->
+        <div class="modal-content">
+                <div class="modal-header">
+                  <p class="close padding-left: 99%;">&times;</p>
+                </div>
+                <div class="modal-body">
+                  <p>Thank you for voting Nixon</p>
+                  <p></p>
+                </div>
+                <div class="modal-footer">
+                </div>
+                </div>    
     </div>
     <br>
     <div class="vote">
         <h1 id="can">Presidential Canidate<br>Richard Nixon</h1>
-        <h1 id="can" style="margin-left: 60px;">Presidential Canidate<br>Richard Nixon</h1>
+        <h1 id="can" style="">Presidential Canidate<br>Richard Nixon</h1>
     </div>
     <script src="../JS pages/index.js"></script>
 

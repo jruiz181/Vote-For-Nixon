@@ -12,6 +12,17 @@
     <!-- js -->
 
 </head>
+<!-- background of onload -->
+<div class="startUp" id="startUp">
+    <div class="content">
+        <div class="body">
+            <p class="x" id="x">Close advertisement</p>
+            <p>Never let your head hang down. Never give up and sit down and grieve. Find another way. And don't pray when it rains if you don't pray when the sun shines.<br><br> -Richard M. Nixon</p>
+            <img src="../imagesUsed/quote.jpeg">
+            <p></p>
+        </div>
+    </div>
+</div>
 
 <body>
     <div class="head">
@@ -19,31 +30,31 @@
     </div>
     <br><br>
     <div class="richard">
-        <img src="../imagesUsed/richard.jpeg" alt="richard" id="canidate">
-        <img src="../imagesUsed/mcGovern.jpeg" alt="mcGovern" id="geo">
+        <img src="../imagesUsed/richard.jpeg" alt="richard" id="canidate" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+        <img src="../imagesUsed/mcGovern.jpeg" alt="mcGovern" id="geo" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
     </div>
     <br>
     <br>
     <br>
     <div class="vote">
-        <button id="rich" onclick="rich()" >Vote</button>
-        <button id="george" onclick="george()" onclick="rich()"  style="margin-left: 5%;">Vote</button>
+        <button id="rich" onclick="rich()">Vote</button>
+        <button id="george" onmousemove="move()" onmouseout="moveOut()" onclick="george()" onclick="rich()" style="margin-left: 5%;" >Vote</button>
     </div>
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
-                <div class="modal-header">
-                  <p class="close padding-left: 99%;">&times;</p>
-                </div>
-                <div class="modal-body">
-                  <p>Thank you for voting Nixon</p>
-                  <p></p>
-                </div>
-                <div class="modal-footer">
-                </div>
-                </div>    
+            <div class="modal-header">
+                <p class="close">&times;</p>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for voting Nixon</p>
+                <p></p>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
     </div>
     <br>
     <div class="vote">
@@ -53,4 +64,5 @@
     <script src="../JS pages/index.js"></script>
 
 </body>
+
 </html>
